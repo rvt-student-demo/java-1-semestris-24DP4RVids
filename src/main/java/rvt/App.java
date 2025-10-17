@@ -13,7 +13,7 @@ public class App {
         skaitli[2] = 7;
 
         // String[] strArr = new String[4];
-
+        System.out.println(skaitli[0] + skaitli[1] - skaitli[2]);
     Scanner scanner = new Scanner(System.in);
     System.out.println("Give speed: ");
     int speed = scanner.nextInt();

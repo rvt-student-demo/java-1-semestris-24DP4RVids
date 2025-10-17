@@ -1,3 +1,5 @@
+package rvt;
+
 import java.util.Scanner;
 
 public class average {
@@ -9,7 +11,7 @@ public class average {
     Double sk2 = scanner.nextDouble();
     System.out.println("Ievadiet trešo skaitli: ");
     Double sk3 = scanner.nextDouble();
-    System.out.println("Jūsu vidējā vērtība ir: " (sk1 + sk2 + sk3) / 3 )
+    System.out.println("Jūsu vidējā vērtība ir: " + (sk1 + sk2 + sk3) / 3 );
     
     }
 }
