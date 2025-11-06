@@ -7,6 +7,8 @@ public class JMArrayList {
     public static void main(String[] args) {
         Only_These_Numbers();
         List_size();
+        On_The_list();
+        Remove_Last();
     }
         public static void Only_These_Numbers() {
             Scanner scanner = new Scanner(System.in);
@@ -36,20 +38,40 @@ public class JMArrayList {
 
             while (true) {
                 String name = String.valueOf(scanner.nextLine());
-                if (name == String.lenght(" ")) {
+                if (name.isEmpty()) {
                     break;
                 }    
                 string_list.add(name);
+        
+                
             }
+        System.out.println(string_list.size());
 
-            System.out.println("From where?");
-            String first = String.valueOf(scanner.nextLine());
+    }
+        public static void On_The_list() {
+            Scanner scanner = new Scanner(System.in);
+            ArrayList<String> string_list_2 = new ArrayList<String>();
 
-            System.out.println("To where?");
-            String last = String.valueOf(scanner.nextLine());
+            while (true) {
+                String input = String.valueOf(scanner.nextLine());
+                if (input.isEmpty()) {
+                    break;
+                }    
+                string_list_2.add(input);
+        
+                
+            }
+            System.out.print("\nSearch for? ");
+            String search = scanner.nextLine();
 
-            
-                System.out.println(string_list);
-            
+            if (string_list_2.contains(search)) {
+            System.out.println(search + " was found!");
+            } 
+            else {
+            System.out.println(search + " was not found!");
+            }
         }
-}
+        public static void Remove_Last() {
+
+        }
+    }   
