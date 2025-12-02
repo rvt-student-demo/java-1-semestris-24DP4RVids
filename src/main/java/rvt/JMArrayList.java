@@ -72,7 +72,25 @@ public class JMArrayList {
             }
         }
         public static void Remove_Last() {
+            ArrayList<String> strings = new ArrayList<>();
 
+            strings.add("First");
+            strings.add("Second");
+            strings.add("Third");
+
+            System.out.println(strings);
+
+            removeLast(strings);
+            removeLast(strings);
+
+            System.out.println(strings);
         }
-    }   
+
+        public static void removeLast(ArrayList<String> strings) {
+            if (strings.isEmpty()) {
+            return;
+            }
+            strings.remove(strings.size() - 1);
+    }
+}   
     
