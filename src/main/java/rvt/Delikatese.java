@@ -32,4 +32,5 @@ public class Delikatese {
         System.out.printf("\npiegade     %.2f%n", delivery);
         System.out.printf("\nkopā        %.2f%n", total);
     }
+    
 }
