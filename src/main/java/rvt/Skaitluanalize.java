@@ -42,5 +42,6 @@ public class Skaitluanalize {
             System.out.println("Netika ievadīts neviens pozitīvs skaitlis.");
         }
     }
+    
 }
 
