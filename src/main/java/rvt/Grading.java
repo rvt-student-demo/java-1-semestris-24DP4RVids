@@ -27,4 +27,5 @@ public class Grading {
             System.out.println("Incredible");
         }
     }
+    
 }
