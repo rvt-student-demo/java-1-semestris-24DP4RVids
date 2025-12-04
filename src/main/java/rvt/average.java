@@ -14,4 +14,5 @@ public class average {
     System.out.println("Jūsu vidējā vērtība ir: " + (sk1 + sk2 + sk3) / 3 );
     
     }
+    
 }
